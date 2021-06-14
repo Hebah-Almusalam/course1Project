@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Simply Blogging | login </title>
+</head>
+
+<body>
+    <script src="js/admin_login.js"></script>
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Simply Blogging</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="blogs.html">Blogs</a></li>
+
+            <li class="active"><a href="login.html">Login</a></li>
+    
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+<div class="container">
+
+<h3>Login</h3>
+
+<form method="GET" class=" login_form form-horizontal">
+    <div class="form-group">
+    <div class=""><label for="id" class="control-label" >ID:</label> 
+        <input type="text" id="id" name="id" class="form-control" required></div>
+        <span class="errorMessage">Wrong Input</span>
+</div>
+<div class="form-group">
+    <div class=""><label for="id" class="control-label" >Password:</label> 
+        <input type="password" id="pwd" name="pwd" class="form-control" required></div>
+        <span class="errorMessage">Wrong input</span>
+    </div>
+<button value="Login" onclick="validate()">Login</button>
+</div>
+</form>
+</div>
+
+</body>
+</html>
